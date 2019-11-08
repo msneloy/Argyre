@@ -32,11 +32,6 @@ craft = {
             "pickaxe" : { "flint"   : 2,  "twig"  : 1                            }
         }
 print("PineCraft by Alec-Neloy-Tayef")
-print("-----------------------------")
-print("You're lost in The Bongo forest of Bonga Bonga Island.")
-print("It's going to be night soon,and you need to secure a base before night.")
-print("Make a Tent and a Firepit to survive the night!")
-print("Type '?' to inspect system calls")
 while True:
     command = input(">").split()
     if len(command) == 0:
@@ -76,7 +71,7 @@ while True:
                 items[item] += 1
                 print("item crafted\n")
             if items["tent"] >= 1 and items["firepit"] >= 1:
-                print("\n**Well,you've managed to escape Bonga Bonga.........for now.\nWELL DONE!")
+                print("")
                 break
         else:
             print("you can't")
