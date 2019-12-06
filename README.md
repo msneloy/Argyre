@@ -21,7 +21,7 @@ _____________________________________________________________________________
 * Implementation............................ 
 * Objects.......................................
 1. ### Introduction 
-<p> 
+
 * The inspiration of this project Minecraft is a sandbox video game created by Swedish game developer Markus Persson and released by Mojang in 2011.
 * The game allows players to build with a variety of different blocks in a 3D procedurally generated world, requiring creativity from players. 
 * Other activities in the game include exploration, resource gathering, crafting, and combat. 
@@ -44,5 +44,4 @@ _____________________________________________________________________________
 4. ### Implementation 
 * The code has two primary segments;the first one being the object definition segment which contains the object library along with object crafting perimeters and the second one being the game mechanics control segment which contains the algorithm to run the program.
 * During development,scalability was the one of the key concerns so that the user is able to manipulate data without destroying the core. 
-</p>
 
